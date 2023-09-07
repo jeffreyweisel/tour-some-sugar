@@ -5,14 +5,16 @@ const database = {
             name: "AC/DC",
             members: 5,
             genre: "Rock and Roll",
-            established: 1999
+            established: 1973,
+           
         },
         {
             id: 2,
             name: "Foo Fighters",
             members: 3,
-            genre: "Rock and Roll",
-            established: 1990
+            genre: "Alternative Rock",
+            established: 1994,
+            
 
         },
         {
@@ -20,14 +22,16 @@ const database = {
             name: "Green Day",
             members: 4,
             genre: "Punk Rock",
-            established: 1992
+            established: 1987,
+            
         },
         {
             id: 4,
             name: "Guns N' Roses",
             members: 4,
             genre: "Rock",
-            established: 1995
+            established: 1985,
+             
 
         },
         {
@@ -35,7 +39,16 @@ const database = {
             name: "Radiohead",
             members: 5,
             genre: "Alternative",
-            established: 1998
+            established: 1985,
+             
+        },
+        {
+            id: 6,
+            name: "Tame Impala",
+            members: 1,
+            genre: "Psychedelic Rock",
+            established: 1999,
+            
         }
     ],
     venues: [
@@ -122,32 +135,32 @@ const database = {
             },
             {
                 id: 6,
-                bandId: 6,
+                bandId: 1,
                 venueId: 6,
                 date : "5/28/2024"
             },
             {
                 id: 7,
-                bandId: 7,
+                bandId: 2,
                 venueId: 7,
                 date : "3/21/2024"
             },
             {
                 id: 8,
-                bandId: 8,
-                venueId: 8,
+                bandId: 1,
+                venueId: 7,
                 date : "1/1/2024"
             },
             {
                 id: 9,
-                bandId: 9,
-                venueId: 9,
+                bandId: 4,
+                venueId: 2,
                 date : "4/24/2024"
             },
             {
                 id: 10,
-                bandId: 10,
-                venueId: 10,
+                bandId: 6,
+                venueId: 3,
                 date : "4/10/2024"
             }
         ]
